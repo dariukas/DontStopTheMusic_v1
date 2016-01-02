@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A307C1051C0B348C00DAE269 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = A307C0F01C0B348C00DAE269 /* AppledocSettings.plist */; };
+		A307C1061C0B348C00DAE269 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = A307C0F11C0B348C00DAE269 /* Configuration.plist */; };
+		A307C1071C0B348C00DAE269 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A307C0F21C0B348C00DAE269 /* Info.plist */; };
+		A307C1081C0B348C00DAE269 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C0F41C0B348C00DAE269 /* XCDYouTubeClient.m */; };
+		A307C1091C0B348C00DAE269 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C0F81C0B348C00DAE269 /* XCDYouTubeLogger.m */; };
+		A307C10A1C0B348C00DAE269 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C0FB1C0B348C00DAE269 /* XCDYouTubePlayerScript.m */; };
+		A307C10B1C0B348C00DAE269 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C0FE1C0B348C00DAE269 /* XCDYouTubeVideo.m */; };
+		A307C10C1C0B348C00DAE269 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C1001C0B348C00DAE269 /* XCDYouTubeVideoOperation.m */; };
+		A307C10D1C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C1021C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.m */; };
+		A307C10E1C0B348C00DAE269 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = A307C1041C0B348C00DAE269 /* XCDYouTubeVideoWebpage.m */; };
+		A39BD7221C0A0473006C5014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39BD7211C0A0473006C5014 /* main.m */; };
+		A39BD7251C0A0473006C5014 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39BD7241C0A0473006C5014 /* AppDelegate.m */; };
+		A39BD7281C0A0473006C5014 /* DontStopTheMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39BD7261C0A0473006C5014 /* DontStopTheMusic.xcdatamodeld */; };
+		A39BD72B1C0A0473006C5014 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39BD72A1C0A0473006C5014 /* ViewController.m */; };
+		A39BD72E1C0A0473006C5014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39BD72C1C0A0473006C5014 /* Main.storyboard */; };
+		A39BD7301C0A0473006C5014 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39BD72F1C0A0473006C5014 /* Images.xcassets */; };
+		A39BD7331C0A0473006C5014 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39BD7311C0A0473006C5014 /* LaunchScreen.xib */; };
+		A39BD73F1C0A0473006C5014 /* DontStopTheMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39BD73E1C0A0473006C5014 /* DontStopTheMusicTests.m */; };
+		A39BD7521C0A0653006C5014 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A39BD74E1C0A0653006C5014 /* AcousticModelEnglish.bundle */; };
+		A39BD7531C0A0653006C5014 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A39BD74F1C0A0653006C5014 /* AcousticModelSpanish.bundle */; };
+		A39BD7541C0A0653006C5014 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39BD7501C0A0653006C5014 /* OpenEars.framework */; };
+		A39BD7551C0A0653006C5014 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39BD7511C0A0653006C5014 /* Slt.framework */; };
+		A39BD7581C0A078E006C5014 /* TextToSpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39BD7571C0A078E006C5014 /* TextToSpeechViewController.m */; };
+		A39BD75A1C0A1647006C5014 /* languageModel.txt in Resources */ = {isa = PBXBuildFile; fileRef = A39BD7591C0A1647006C5014 /* languageModel.txt */; };
+		A3FA9BFE1C0A40BB00943409 /* LanguageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FA9BFD1C0A40BB00943409 /* LanguageModel.m */; };
+		A3FA9C011C0A445000943409 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FA9C001C0A445000943409 /* MainModel.m */; };
+		A3FA9C031C0A72FA00943409 /* songsModel.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3FA9C021C0A72FA00943409 /* songsModel.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39BD7391C0A0473006C5014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39BD7141C0A0473006C5014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39BD71B1C0A0473006C5014;
+			remoteInfo = YourJoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A307C0F01C0B348C00DAE269 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
+		A307C0F11C0B348C00DAE269 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		A307C0F21C0B348C00DAE269 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A307C0F31C0B348C00DAE269 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeClient.h; sourceTree = "<group>"; };
+		A307C0F41C0B348C00DAE269 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeClient.m; sourceTree = "<group>"; };
+		A307C0F51C0B348C00DAE269 /* XCDYouTubeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeError.h; sourceTree = "<group>"; };
+		A307C0F61C0B348C00DAE269 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeKit.h; sourceTree = "<group>"; };
+		A307C0F71C0B348C00DAE269 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		A307C0F81C0B348C00DAE269 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		A307C0F91C0B348C00DAE269 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		A307C0FA1C0B348C00DAE269 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		A307C0FB1C0B348C00DAE269 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		A307C0FC1C0B348C00DAE269 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		A307C0FD1C0B348C00DAE269 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		A307C0FE1C0B348C00DAE269 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		A307C0FF1C0B348C00DAE269 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		A307C1001C0B348C00DAE269 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		A307C1011C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		A307C1021C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		A307C1031C0B348C00DAE269 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		A307C1041C0B348C00DAE269 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		A39BD71C1C0A0473006C5014 /* DontStopTheMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontStopTheMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39BD7201C0A0473006C5014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39BD7211C0A0473006C5014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39BD7231C0A0473006C5014 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39BD7241C0A0473006C5014 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39BD7271C0A0473006C5014 /* DontStopTheMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DontStopTheMusic.xcdatamodel; sourceTree = "<group>"; };
+		A39BD7291C0A0473006C5014 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A39BD72A1C0A0473006C5014 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A39BD72D1C0A0473006C5014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A39BD72F1C0A0473006C5014 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A39BD7321C0A0473006C5014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A39BD7381C0A0473006C5014 /* YourJokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourJokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39BD73D1C0A0473006C5014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39BD73E1C0A0473006C5014 /* DontStopTheMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DontStopTheMusicTests.m; sourceTree = "<group>"; };
+		A39BD74E1C0A0653006C5014 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		A39BD74F1C0A0653006C5014 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		A39BD7501C0A0653006C5014 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		A39BD7511C0A0653006C5014 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		A39BD7561C0A078E006C5014 /* TextToSpeechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextToSpeechViewController.h; sourceTree = "<group>"; };
+		A39BD7571C0A078E006C5014 /* TextToSpeechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextToSpeechViewController.m; sourceTree = "<group>"; };
+		A39BD7591C0A1647006C5014 /* languageModel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = languageModel.txt; sourceTree = "<group>"; };
+		A3FA9BFC1C0A40BB00943409 /* LanguageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageModel.h; sourceTree = "<group>"; };
+		A3FA9BFD1C0A40BB00943409 /* LanguageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageModel.m; sourceTree = "<group>"; };
+		A3FA9BFF1C0A445000943409 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		A3FA9C001C0A445000943409 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		A3FA9C021C0A72FA00943409 /* songsModel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = songsModel.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39BD7191C0A0473006C5014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39BD7551C0A0653006C5014 /* Slt.framework in Frameworks */,
+				A39BD7541C0A0653006C5014 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39BD7351C0A0473006C5014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A307C0EF1C0B348C00DAE269 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				A307C0F01C0B348C00DAE269 /* AppledocSettings.plist */,
+				A307C0F11C0B348C00DAE269 /* Configuration.plist */,
+				A307C0F21C0B348C00DAE269 /* Info.plist */,
+				A307C0F31C0B348C00DAE269 /* XCDYouTubeClient.h */,
+				A307C0F41C0B348C00DAE269 /* XCDYouTubeClient.m */,
+				A307C0F51C0B348C00DAE269 /* XCDYouTubeError.h */,
+				A307C0F61C0B348C00DAE269 /* XCDYouTubeKit.h */,
+				A307C0F71C0B348C00DAE269 /* XCDYouTubeLogger.h */,
+				A307C0F81C0B348C00DAE269 /* XCDYouTubeLogger.m */,
+				A307C0F91C0B348C00DAE269 /* XCDYouTubeOperation.h */,
+				A307C0FA1C0B348C00DAE269 /* XCDYouTubePlayerScript.h */,
+				A307C0FB1C0B348C00DAE269 /* XCDYouTubePlayerScript.m */,
+				A307C0FC1C0B348C00DAE269 /* XCDYouTubeVideo+Private.h */,
+				A307C0FD1C0B348C00DAE269 /* XCDYouTubeVideo.h */,
+				A307C0FE1C0B348C00DAE269 /* XCDYouTubeVideo.m */,
+				A307C0FF1C0B348C00DAE269 /* XCDYouTubeVideoOperation.h */,
+				A307C1001C0B348C00DAE269 /* XCDYouTubeVideoOperation.m */,
+				A307C1011C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.h */,
+				A307C1021C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.m */,
+				A307C1031C0B348C00DAE269 /* XCDYouTubeVideoWebpage.h */,
+				A307C1041C0B348C00DAE269 /* XCDYouTubeVideoWebpage.m */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		A39BD7131C0A0473006C5014 = {
+			isa = PBXGroup;
+			children = (
+				A307C0EF1C0B348C00DAE269 /* XCDYouTubeKit */,
+				A39BD7491C0A059C006C5014 /* OpenEarFramework */,
+				A39BD71E1C0A0473006C5014 /* DontStopTheMusic */,
+				A39BD73B1C0A0473006C5014 /* DontStopTheMusicTests */,
+				A39BD71D1C0A0473006C5014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39BD71D1C0A0473006C5014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39BD71C1C0A0473006C5014 /* DontStopTheMusic.app */,
+				A39BD7381C0A0473006C5014 /* YourJokeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39BD71E1C0A0473006C5014 /* DontStopTheMusic */ = {
+			isa = PBXGroup;
+			children = (
+				A39BD7231C0A0473006C5014 /* AppDelegate.h */,
+				A39BD7241C0A0473006C5014 /* AppDelegate.m */,
+				A39BD7291C0A0473006C5014 /* ViewController.h */,
+				A39BD72A1C0A0473006C5014 /* ViewController.m */,
+				A39BD7561C0A078E006C5014 /* TextToSpeechViewController.h */,
+				A39BD7571C0A078E006C5014 /* TextToSpeechViewController.m */,
+				A3FA9BFC1C0A40BB00943409 /* LanguageModel.h */,
+				A3FA9BFD1C0A40BB00943409 /* LanguageModel.m */,
+				A3FA9BFF1C0A445000943409 /* MainModel.h */,
+				A3FA9C001C0A445000943409 /* MainModel.m */,
+				A39BD72C1C0A0473006C5014 /* Main.storyboard */,
+				A39BD72F1C0A0473006C5014 /* Images.xcassets */,
+				A39BD7311C0A0473006C5014 /* LaunchScreen.xib */,
+				A39BD71F1C0A0473006C5014 /* Supporting Files */,
+			);
+			path = DontStopTheMusic;
+			sourceTree = "<group>";
+		};
+		A39BD71F1C0A0473006C5014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39BD7261C0A0473006C5014 /* DontStopTheMusic.xcdatamodeld */,
+				A39BD7201C0A0473006C5014 /* Info.plist */,
+				A39BD7591C0A1647006C5014 /* languageModel.txt */,
+				A3FA9C021C0A72FA00943409 /* songsModel.txt */,
+				A39BD7211C0A0473006C5014 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39BD73B1C0A0473006C5014 /* DontStopTheMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A39BD73E1C0A0473006C5014 /* DontStopTheMusicTests.m */,
+				A39BD73C1C0A0473006C5014 /* Supporting Files */,
+			);
+			path = DontStopTheMusicTests;
+			sourceTree = "<group>";
+		};
+		A39BD73C1C0A0473006C5014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39BD73D1C0A0473006C5014 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39BD7491C0A059C006C5014 /* OpenEarFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A39BD74E1C0A0653006C5014 /* AcousticModelEnglish.bundle */,
+				A39BD74F1C0A0653006C5014 /* AcousticModelSpanish.bundle */,
+				A39BD7501C0A0653006C5014 /* OpenEars.framework */,
+				A39BD7511C0A0653006C5014 /* Slt.framework */,
+			);
+			name = OpenEarFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39BD71B1C0A0473006C5014 /* DontStopTheMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39BD7421C0A0473006C5014 /* Build configuration list for PBXNativeTarget "DontStopTheMusic" */;
+			buildPhases = (
+				A39BD7181C0A0473006C5014 /* Sources */,
+				A39BD7191C0A0473006C5014 /* Frameworks */,
+				A39BD71A1C0A0473006C5014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DontStopTheMusic;
+			productName = YourJoke;
+			productReference = A39BD71C1C0A0473006C5014 /* DontStopTheMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A39BD7371C0A0473006C5014 /* YourJokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39BD7451C0A0473006C5014 /* Build configuration list for PBXNativeTarget "YourJokeTests" */;
+			buildPhases = (
+				A39BD7341C0A0473006C5014 /* Sources */,
+				A39BD7351C0A0473006C5014 /* Frameworks */,
+				A39BD7361C0A0473006C5014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39BD73A1C0A0473006C5014 /* PBXTargetDependency */,
+			);
+			name = YourJokeTests;
+			productName = YourJokeTests;
+			productReference = A39BD7381C0A0473006C5014 /* YourJokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39BD7141C0A0473006C5014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Darius Miliauskas";
+				TargetAttributes = {
+					A39BD71B1C0A0473006C5014 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A39BD7371C0A0473006C5014 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A39BD71B1C0A0473006C5014;
+					};
+				};
+			};
+			buildConfigurationList = A39BD7171C0A0473006C5014 /* Build configuration list for PBXProject "DontStopTheMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A39BD7131C0A0473006C5014;
+			productRefGroup = A39BD71D1C0A0473006C5014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39BD71B1C0A0473006C5014 /* DontStopTheMusic */,
+				A39BD7371C0A0473006C5014 /* YourJokeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39BD71A1C0A0473006C5014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39BD75A1C0A1647006C5014 /* languageModel.txt in Resources */,
+				A307C1051C0B348C00DAE269 /* AppledocSettings.plist in Resources */,
+				A39BD72E1C0A0473006C5014 /* Main.storyboard in Resources */,
+				A3FA9C031C0A72FA00943409 /* songsModel.txt in Resources */,
+				A39BD7531C0A0653006C5014 /* AcousticModelSpanish.bundle in Resources */,
+				A39BD7331C0A0473006C5014 /* LaunchScreen.xib in Resources */,
+				A307C1061C0B348C00DAE269 /* Configuration.plist in Resources */,
+				A39BD7521C0A0653006C5014 /* AcousticModelEnglish.bundle in Resources */,
+				A307C1071C0B348C00DAE269 /* Info.plist in Resources */,
+				A39BD7301C0A0473006C5014 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39BD7361C0A0473006C5014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39BD7181C0A0473006C5014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A307C10B1C0B348C00DAE269 /* XCDYouTubeVideo.m in Sources */,
+				A307C1081C0B348C00DAE269 /* XCDYouTubeClient.m in Sources */,
+				A39BD7251C0A0473006C5014 /* AppDelegate.m in Sources */,
+				A3FA9BFE1C0A40BB00943409 /* LanguageModel.m in Sources */,
+				A307C10A1C0B348C00DAE269 /* XCDYouTubePlayerScript.m in Sources */,
+				A307C1091C0B348C00DAE269 /* XCDYouTubeLogger.m in Sources */,
+				A39BD7221C0A0473006C5014 /* main.m in Sources */,
+				A39BD72B1C0A0473006C5014 /* ViewController.m in Sources */,
+				A307C10D1C0B348C00DAE269 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				A39BD7581C0A078E006C5014 /* TextToSpeechViewController.m in Sources */,
+				A307C10C1C0B348C00DAE269 /* XCDYouTubeVideoOperation.m in Sources */,
+				A307C10E1C0B348C00DAE269 /* XCDYouTubeVideoWebpage.m in Sources */,
+				A39BD7281C0A0473006C5014 /* DontStopTheMusic.xcdatamodeld in Sources */,
+				A3FA9C011C0A445000943409 /* MainModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39BD7341C0A0473006C5014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39BD73F1C0A0473006C5014 /* DontStopTheMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39BD73A1C0A0473006C5014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39BD71B1C0A0473006C5014 /* DontStopTheMusic */;
+			targetProxy = A39BD7391C0A0473006C5014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A39BD72C1C0A0473006C5014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39BD72D1C0A0473006C5014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A39BD7311C0A0473006C5014 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39BD7321C0A0473006C5014 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39BD7401C0A0473006C5014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A39BD7411C0A0473006C5014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39BD7431C0A0473006C5014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DontStopTheMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = DontStopTheMusic;
+			};
+			name = Debug;
+		};
+		A39BD7441C0A0473006C5014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DontStopTheMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = DontStopTheMusic;
+			};
+			name = Release;
+		};
+		A39BD7461C0A0473006C5014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DontStopTheMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DontStopTheMusic.app/DontStopTheMusic";
+			};
+			name = Debug;
+		};
+		A39BD7471C0A0473006C5014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DontStopTheMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DontStopTheMusic.app/DontStopTheMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39BD7171C0A0473006C5014 /* Build configuration list for PBXProject "DontStopTheMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39BD7401C0A0473006C5014 /* Debug */,
+				A39BD7411C0A0473006C5014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39BD7421C0A0473006C5014 /* Build configuration list for PBXNativeTarget "DontStopTheMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39BD7431C0A0473006C5014 /* Debug */,
+				A39BD7441C0A0473006C5014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39BD7451C0A0473006C5014 /* Build configuration list for PBXNativeTarget "YourJokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39BD7461C0A0473006C5014 /* Debug */,
+				A39BD7471C0A0473006C5014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A39BD7261C0A0473006C5014 /* DontStopTheMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A39BD7271C0A0473006C5014 /* DontStopTheMusic.xcdatamodel */,
+			);
+			currentVersion = A39BD7271C0A0473006C5014 /* DontStopTheMusic.xcdatamodel */;
+			path = DontStopTheMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A39BD7141C0A0473006C5014 /* Project object */;
+}
